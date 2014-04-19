@@ -1,0 +1,15 @@
+{
+  "name": "organic-dna-resolvereferences",
+  "version": "0.0.1",
+  "author": "Boris Filipov",
+  "dependencies": {
+    "organic": "~0.1.1"
+  },
+  "description": "Resolves DNA `@references` within branches directly",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },  
+  "license": "MIT"
+}
