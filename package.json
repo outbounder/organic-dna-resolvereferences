@@ -7,9 +7,23 @@
   },
   "description": "Resolves DNA `@references` within branches directly",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-git-release": "^0.1.3",
+    "organic-angel": "^0.2.12"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },  
-  "license": "MIT"
+    "test": "jasmine-node ./tests"
+  },
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outbounder/organic-dna-resolvereferences.git"
+  },
+  "bugs": {
+    "url": "https://github.com/outbounder/organic-dna-resolvereferences/issues"
+  },
+  "homepage": "https://github.com/outbounder/organic-dna-resolvereferences"
 }
