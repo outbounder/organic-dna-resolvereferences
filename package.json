@@ -1,9 +1,9 @@
 {
   "name": "organic-dna-resolvereferences",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Boris Filipov",
   "dependencies": {
-    "organic": "~0.1.1"
+    "organic-dna-branches": "0.0.2"
   },
   "description": "Resolves DNA `@references` within branches directly",
   "main": "index.js",

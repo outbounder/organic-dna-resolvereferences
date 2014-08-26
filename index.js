@@ -1,10 +1,10 @@
-var DNA = require("organic").DNA
+var selectBranch = require("organic-dna-branches").selectBranch
 
 var findDnaValue = function(dna, query) {
   if(query.charAt(0) == "@")
     query = query.substr(1)
   try {
-    return DNA.prototype.selectBranch.call(dna, query)
+    return selectBranch(dna, query)
   } catch(e){
     console.log(dna, query)
     throw e
